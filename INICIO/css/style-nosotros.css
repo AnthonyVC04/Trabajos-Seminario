@@ -1,0 +1,161 @@
+.muestra{
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url(../img/img-nosotros/flayer.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.content{
+    padding: 40px;
+}
+.content_text{
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    margin-left: 150px;
+}
+.content_text a{
+    color: white;
+    font-size: 15px;
+    text-decoration: none;
+}
+.content_text a:hover{
+    text-decoration: underline;
+}
+.informacion{
+    background-color: #F2F2F2;
+    height: 60vh;
+    padding: 70px;
+}
+.informacion_content{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+    height: 100%;
+}
+.concepto{
+    display: flex;
+    flex-direction: column;
+}
+.extra{
+    margin-top: 100px;
+    background-color: #fff;
+    padding: 30px;
+    border-left: #F39200 solid;
+}
+.img_first{
+    background-image: url(../img/img-nosotros/servicios.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.mision_vision{
+    padding: 70px;
+}
+.mision_vision_content{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-bottom: 100px;
+}
+.vision h2{
+    text-align: center;
+    color: #2A358B;
+    font-size: 30px;
+    border-width: 10px;
+}
+.vision p{
+    text-align: initial;
+    padding:40px 80px 40px 80px;
+    
+}
+.mision h2{
+    text-align: center;
+    color: #2A358B;
+    font-size: 30px;
+}
+.mision p{
+    text-align: initial;
+    padding:40px 80px 40px 80px;
+}
+.brochure{
+    padding: 30px;
+    background-color: #F39200;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+    align-items: center;
+}
+.brochure h2{
+    color: white;
+    font-weight: bold;
+}
+.brochure div{
+    text-align: end;
+    padding-right: 150px;
+}
+.brochure button{
+    padding: 15px;
+    background-color: #2A358B;
+    color: white;
+    font-weight: bold;
+    border: none;
+    transition: 0.5s;
+}
+.brochure button:hover{
+    background-color: white;
+    color: #2A358B;
+}
+@media (max-width: 958px){
+    .enlace{
+        padding-left: 20px;
+    }
+    nav ul li a{
+        font-size: 16px;
+    }
+    .content{
+        padding: 40px;
+    }
+    .content_text{
+        margin-left: 50px;
+    }
+    .informacion{
+        height: auto;
+    }
+    .informacion_content{
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+    .extra{
+        margin-top: 50px;
+    }
+    .mision_vision{
+        margin-top: 50px;
+    }
+    .mision_vision_content{
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+        gap: 100px;
+    }
+    .vision p{
+        text-align: center;
+    }
+    .mision p{
+        text-align: center;
+    }
+    .brochure{
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+    .brochure h2{
+        font-size: 20px;
+    }
+    .brochure div{
+        text-align: center;
+        padding: 0;
+        padding-top: 20px;
+    }
+}

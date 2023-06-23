@@ -1,0 +1,373 @@
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap'); 
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+.body{
+    font-family: 'Poppins', sans-serif;
+} 
+.nav-topss {
+    background-color: #28348B;
+    color: white;
+
+}
+
+.navbar-info {
+    display: flex;
+    align-items: center;
+
+}
+
+.navbar-info-nav {
+    display: flex;
+    justify-content: center;
+    font-size: 1.5vw;
+}
+
+.info-item-left {
+    margin-right: 3%;
+    white-space: nowrap;
+    list-style: none;
+}
+
+.info-item-right {
+    margin-left: 3%;
+    white-space: nowrap;
+    list-style: none;
+}
+
+.info-link {
+    position: relative;
+    color: white;
+    text-decoration: none;
+    float: left;
+}
+
+
+
+.navbar-blue {
+    padding: 0;
+    background-color: #28348B;
+
+}
+
+.navbar-blue-container {
+    display: flex;
+    height: 4.55vw;
+    width: 100%;
+    position: relative;
+    justify-content: center;
+}
+
+/* FIGURA REDES SOCIALES */
+.redes {
+    display: flex;
+    justify-content: end;
+}
+
+.redes-figura {
+    /* Rectangle 186 */
+    position: relative;
+    clip-path: polygon(10% 0, 100% 0%, 100% 100%, 0 100%);
+    background: #F39200;
+    display: flex;
+    width: 23vw;
+    height: 3.5vw;
+    justify-content: end;
+    align-items: center;
+}
+
+
+/* ICONS REDES SOCIALES */
+
+
+.rectangule-top-left {
+    clip-path: polygon(75% 0, 100% 0%, 50% 100%, 25% 100%);
+    background-color: #F39200;
+    margin-left: -3vw;
+    width: 6.5vw;
+    height: 4.6vw;
+    position: relative;
+}
+
+.rectangule-top-right {
+
+    clip-path: polygon(75% 0, 100% 0%, 50% 100%, 25% 100%);
+    background-color: #F39200;
+    margin-left: -3vw;
+    width: 6.5vw;
+    height: 4.6vw;
+    position: relative;
+}
+
+.orange-forms-top {
+    display: flex;
+    height: 3rem;
+    width: 100%;
+    position: absolute;
+    justify-content: space-between;
+}
+
+.orange-forms-top-left {
+    display: flex;
+}
+
+.orange-forms-top-right {
+    display: flex;
+}
+
+/* BANNER SERVEL ELECTRIC  */
+.logo-header {
+    display: flex;
+    justify-content: center;
+    width: 98vw;
+    height: 8vw;
+    margin: auto;
+}
+
+
+.info-logo-nav-link {
+    width: 3vw;
+}
+
+.contenedor-figura {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    width: 16vw;
+    height: 3vw;
+    align-items: center;
+    margin: auto 2vw;
+}
+
+.red-logo1 {
+    width: 1vw;
+}
+
+.red-logo2 {
+    width: 2.6vw;
+}
+
+.red-logo3 {
+    width: 2.6vw;
+}
+
+/* barra de navegacion*/
+
+.container-trapecio-barra-nav {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+.trapecio-barra-nav1 {
+    background-color: #28348B;
+    display: flex;
+    height: 3.9vw;
+    align-items: center;
+    transform: perspective(100px) rotateX(4deg);
+    z-index: 3;
+    text-align: center;
+}
+
+.trapecio-barra-nav1 ul {
+    list-style-type: none;
+    /* margin: 0; */
+
+}
+
+.trapecio-barra-nav1 li {
+    display: inline-block;
+    position: relative;
+}
+
+/* CSS MODIFICA EL HOBER DE LA BARRA DE NAVEGACION*/
+
+.trapecio-barra-nav1 a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0.81vw 2.6vw;
+    display: block;
+    font-size: 1.4vw;
+    text-align: center;
+}
+
+.trapecio-barra-nav1 a:hover {
+    background-color: #F39200;
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    /* padding:0.9vw 3.1vw ;  */
+
+}
+
+ .tr-sub-menu {
+    transform: perspective(100px) rotateX(-2.1deg);
+    display: none;
+    position: absolute;
+    background-color: #28348B;
+    width: 12.3vw;
+}
+
+
+.trapecio-barra-nav1 li:hover .tr-sub-menu {
+    display: block;
+    position: absolute;
+
+
+}
+
+.tr-sub-menu li:hover {
+    background-color: #F39200;
+    display: block;
+
+
+}
+
+.tr-sub-menu a:hover {
+    transform: none;
+    text-align: center;
+    margin: auto;
+
+
+}
+
+.tr-sub-menu a {
+
+    text-align: center;
+
+}
+
+.puente-nav1 {
+    position: relative;
+    width: 100%;
+    height: 4vw;
+    top: 2.3vw;
+    background-color: #F39200;
+    display: flex;
+    clip-path: polygon(0% 60%,
+            21.5% 60%,
+            22.8% 15%,
+            77.4% 15%,
+            78.6% 60%,
+            100% 60%,
+            100% 72%,
+            78.2% 72%,
+            77.2% 30%,
+            23.1% 30%,
+            21.9% 72%,
+            0% 72%);
+}
+
+.puente-nav2 {
+    position: relative;
+    width: 100%;
+    height: 0.7vw;
+    bottom: 1.5vw;
+    background-color: #F39200;
+    z-index: 1;
+}
+
+/*carrusel*/
+.carousel-header {
+    width: 100%;
+    height: 48vw;
+    overflow: hidden;
+    position: relative;
+
+}
+
+.carousel-header img {
+    width: 100%;
+    height: 48vw;
+}
+
+.carousel-header img:first-child {
+    display: block;
+}
+
+#prevBtn,
+#nextBtn {
+    position: absolute;
+}
+
+
+
+.arrowBtn {
+    font-size: 8vw;
+    background: none;
+    border: none;
+    color: rgba(255, 255, 255, 0.884);
+    cursor: pointer;
+}
+
+#prevBtn {
+    left: 7%;
+    top: 40%;
+}
+
+#nextBtn {
+    right: 7%;
+    top: 40%;
+}
+
+.btncontactenos {
+    position: absolute;
+    border-radius: 10px;
+    border: 2px solid #F39200;
+    background-color: rgba(243, 146, 0, 0.473);
+    color: white;
+    font-weight: bold;
+    width: 12%;
+    height: 7%;
+    cursor: pointer;
+    top: 75%;
+    right: 44%;
+    font-size: 1.4vw;
+}
+
+.btncontactenos:hover {
+    background-color: rgba(243, 146, 0, 0.9);
+    color: white;
+    filter: drop-shadow(0 0 0.75rem #F39200);
+}
+
+.figura2 {
+    background-color: #F39200;
+    height: 6vw;
+    width: 25vw;
+    position: absolute;
+    top: 12vw;
+    right: 50vw;
+    clip-path: polygon(0% 100%, 20% 0%, 100% 0%, 80% 100%);
+    text-align: center;
+}
+
+.text-figura2 {
+    position: relative;
+    color: #28348B;
+    font-weight: bold;
+    top: 1vw;
+    font-size: 3.1vw;
+}
+
+.figura3 {
+    background-color: #28348B;
+    height: 6vw;
+    width: 25vw;
+    position: absolute;
+    top: 10vw;
+    right: 25vw;
+    clip-path: polygon(0% 100%, 20% 0%, 100% 0%, 80% 100%);
+    text-align: center;
+}
+
+.text-figura3 {
+    position: relative;
+    color: #F39200;
+    font-weight: bold;
+    top: 1vw;
+    font-size: 3.1vw;
+}
